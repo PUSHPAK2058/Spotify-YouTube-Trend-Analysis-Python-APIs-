@@ -37,7 +37,7 @@ if __name__ == '__main__':
     print("📝 Make sure your .env file contains valid API keys!")
 
     # Run the app
-    app.run_server(
+    app.run(
         debug=api_keys.debug,
         port=api_keys.port,
         host='0.0.0.0'
